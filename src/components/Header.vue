@@ -15,14 +15,16 @@
         </b>
       </div>
       <div
-        class="flex-1 flex flex-row flex-wrap items-start justify-start gap-[40px] text-[17.17px] font-roboto-mono md:flex-col md:gap-[40px] md:items-start md:justify-start"
+        class="w-[247px] flex flex-row flex-wrap items-start justify-end gap-[30px] text-[17.17px] font-roboto-mono md:flex-col md:gap-[40px] md:items-start md:justify-start"
         :style="navStyle"
       >
-        <div class="flex-1 relative md:flex-[unset] md:self-stretch">Home</div>
-        <div class="flex-1 relative md:flex-[unset] md:self-stretch">Works</div>
-        <div class="flex-1 relative md:flex-[unset] md:self-stretch">
-          Contact
+        <div
+          class="flex-1 relative lg:cursor-auto md:flex-[unset] md:self-stretch"
+        >
+          Home
         </div>
+        <div class="flex-1 relative md:flex-[unset] md:self-stretch">Works</div>
+        <div class="relative">Contact</div>
       </div>
     </div>
   </header>
