@@ -1,20 +1,18 @@
 <template>
   <section
-    class="self-stretch bg-base-white overflow-hidden flex flex-col items-start justify-start gap-[11.48px] text-left text-[45.46px] text-primary-main-1 font-roboto-mono"
+    class="self-stretch bg-base-white overflow-hidden flex flex-col items-start justify-start py-2.5 px-10 gap-[20px] text-left text-base text-primary-main-1 font-roboto-mono"
   >
-    <div
-      class="self-stretch flex flex-col items-start justify-start py-1 px-10 gap-[10px]"
-    >
-      <div class="self-stretch relative font-medium">UXUI Designer</div>
-      <div class="relative text-[18.73px] font-semibold font-epilogue">
-        <span>Linkdn |</span>
-        <span class="text-salmon"> Xing</span>
-      </div>
+    <div class="self-stretch relative text-21xl uppercase font-medium">
+      UXUI Designer
     </div>
-    <div
-      class="self-stretch overflow-hidden flex flex-row items-start justify-between py-[4.099936008453369px] px-[40.999359130859375px] text-38xl-4"
-    >
-      <b class="relative">I can help with that !</b>
+    <div class="self-stretch relative font-medium">
+      <span>Linkdn |</span>
+      <span class="text-salmon"> Xing</span>
+    </div>
+    <div class="self-stretch relative">
+      Experience the difference that a user-centric design mindset, a custom
+      design system, and coding finesse in diverse frameworks can make in your
+      projects.
     </div>
   </section>
 </template>
